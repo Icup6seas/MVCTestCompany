@@ -26,5 +26,14 @@ namespace MVCTestCompany.Controllers
 
             return View();
         }
+        public string ListAllCustomers()
+        {
+            return @"<ul>
+                <li>Fred Flintstone</li>
+                <li>Judy Jetson</li>
+                <li>Shaggy Rogers</li>
+                <li>Daphne Blake</li>
+                </ul>";
+        }
     }
 }
